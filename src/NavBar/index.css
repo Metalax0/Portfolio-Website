@@ -1,0 +1,26 @@
+/* Styling navigation bar and its menu items */
+
+nav {
+  /* outline: 3px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling anchor tag (a) for navigation bar */
+a {
+  font: 1.5vw "Hubballi", cursive;
+  text-decoration: none;
+  color: grey;
+}
+
+/* Styling logo-text of navbar */
+label {
+  font: bold 2.5vw  "Hubballi", cursive;
+  color: black;
+}
+
+.nav-menuitem {
+  display: flex;
+  gap: 2vw;
+}
