@@ -1,0 +1,30 @@
+.contentContainer {
+  display: flex;
+  align-items: center;
+  width: 75vw;
+  justify-content: space-evenly;
+  gap: 3vw;
+}
+
+.yearDiv {
+  padding: 2.5vw;
+  background-color: #303030;
+  border: 0.25vw solid black;
+  border-radius: 2.5vw;
+  font: bold 1.3vw "Hubballi", cursive;
+  color: white;
+}
+
+/* IDK what it does but it worked. So I'm not touching this code */
+.textLeft,
+.textRight {
+  flex: 1 1 0;
+  font: 1.5vw "Hubballi", cursive;
+  line-height: 2vw;
+  text-align: justify;
+}
+
+.imgProject {
+  width: 30vw;
+  outline: 5px solid orange;
+}

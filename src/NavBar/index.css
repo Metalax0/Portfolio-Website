@@ -16,7 +16,8 @@ a {
 
 /* Styling logo-text of navbar */
 label {
-  font: bold 2.5vw  "Hubballi", cursive;
+  font: bold 1.7vw  "Comforter Brush", cursive;
+  letter-spacing: 0.7vw;
   color: black;
 }
 

@@ -1,4 +1,4 @@
-img {
+.imgPotrait {
   width: 12vw;
   height: 12vw;
 
@@ -36,11 +36,12 @@ img {
 }
 
 .mainContainer {
-  /* outline: 2px solid blue; */
+  /* outline: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.5vw;
+  height: 40vw;
 }
 
 .mainContainer_Title {
@@ -61,11 +62,4 @@ img {
 .mainContainer_subText {
   font: 1.5vw "Hubballi", cursive;
   color: black;
-}
-
-hr{
-  border: 0.1vw solid grey;
-  border-radius: 1vw;
-  width: 44vw;
-  background-color: grey;
 }

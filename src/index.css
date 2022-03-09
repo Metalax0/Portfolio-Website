@@ -5,13 +5,14 @@
 }
 
 body {
-  padding: 3vw 9vw;
+  /* padding: 3vw 9vw; */
+  padding: 3vw 9vw 0 9vw;
   background-color: beige;
 
   opacity: 100%;
   animation-name: pageAnimation;
   animation-timing-function: linear;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 @keyframes pageAnimation {
@@ -38,5 +39,5 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  gap: 5vw;
+  gap: 8vw;
 }

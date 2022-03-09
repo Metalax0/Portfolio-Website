@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockTitle {
+  margin-bottom: 5vw;
+  font: bold 3vw "Hubballi", cursive;
+}
