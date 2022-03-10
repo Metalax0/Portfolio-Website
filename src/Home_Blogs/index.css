@@ -4,7 +4,36 @@
   align-items: center;
 }
 
-.blockTitle {
-  margin-bottom: 5vw;
+.blockTitleBlog {
+  margin-bottom: 2vw;
   font: bold 3vw "Hubballi", cursive;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 3.8vw;
+}
+
+.imgBlogs{
+  width: 20vw;
+  height: 10vw;
+}
+
+.blogTitle
+{
+  text-align: center;
+  font: bold 1.5vw "Hubballi", cursive;
+}
+
+.blogContent
+{
+  text-align: justify;
+  font: 1.3vw "Hubballi", cursive;
 }

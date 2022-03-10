@@ -1,0 +1,10 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.blockTitleContact {
+    margin-bottom: 2vw;
+    font: bold 3vw "Hubballi", cursive;
+  }

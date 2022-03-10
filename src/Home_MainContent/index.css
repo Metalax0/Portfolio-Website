@@ -1,9 +1,12 @@
-.imgPotrait {
-  width: 12vw;
-  height: 12vw;
+/* div
+{
+  outline: 1px solid blue;
+} */
 
-  border: 0.7vw solid;
-  border-radius: 7vw 7vw 7vw 0.5vw; /*Top, Right, Bottom, Left */
+.imgPotrait {
+  border-right: 1vw solid;
+  border-left: 1vw solid;
+  border-radius: 2vw 2vw 2vw 2vw;
 
   animation-name: borderColorChange;
   animation-duration: 10s;
@@ -36,12 +39,11 @@
 }
 
 .mainContainer {
-  /* outline: 1px solid red; */
+  padding-top: 7vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2.5vw;
-  height: 40vw;
+  justify-content: center;
+  gap: 3vw;
 }
 
 .mainContainer_Title {
@@ -54,12 +56,10 @@
   color: black;
 }
 
-.mainContainer_text {
-  font: 2vw "Hubballi", cursive;
-  color: black;
-}
-
-.mainContainer_subText {
-  font: 1.5vw "Hubballi", cursive;
-  color: black;
+.aboutMe {
+  padding-top: 2vw;
+  width: 30vw;
+  font: 1.7vw "Hubballi", cursive;
+  line-height: 1.2;
+  text-align: justify;
 }

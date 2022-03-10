@@ -1,7 +1,8 @@
 /* Styling navigation bar and its menu items */
 
 nav {
-  /* outline: 3px solid black; */
+  position: absolute;
+  width: 80vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,7 +16,7 @@ a {
 }
 
 /* Styling logo-text of navbar */
-label {
+.nav-logotext {
   font: bold 1.7vw  "Comforter Brush", cursive;
   letter-spacing: 0.7vw;
   color: black;

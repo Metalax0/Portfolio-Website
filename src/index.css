@@ -39,5 +39,5 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  gap: 8vw;
+  gap: 10vw;
 }
