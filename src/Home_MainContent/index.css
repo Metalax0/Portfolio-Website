@@ -1,15 +1,12 @@
-/* div
-{
-  outline: 1px solid blue;
-} */
-
 .imgPotrait {
+  width: 25vw;
+  height: 34vw;
   border-right: 1vw solid;
   border-left: 1vw solid;
   border-radius: 2vw 2vw 2vw 2vw;
 
   animation-name: borderColorChange;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -62,4 +59,21 @@
   font: 1.7vw "Hubballi", cursive;
   line-height: 1.2;
   text-align: justify;
+}
+
+.leftContainer button{
+  width: 12vw;
+  height: 2.8vw;
+  margin-top: 2vw;
+  font: bold 1.5vw "Hubballi", cursive;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.leftContainer button:hover{
+  cursor: pointer;
+  color: white;
+  border: 3px solid white;
+  background-color: black;
 }

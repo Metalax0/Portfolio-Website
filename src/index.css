@@ -5,9 +5,10 @@
 }
 
 body {
-  /* padding: 3vw 9vw; */
   padding: 3vw 9vw 0 9vw;
-  background-color: beige;
+  /* background-color: beige; */
+  /* background-color: #E4DFDA; */
+  background: url("../public/img_bg4.jpg");
 
   opacity: 100%;
   animation-name: pageAnimation;
