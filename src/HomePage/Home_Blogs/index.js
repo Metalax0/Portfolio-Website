@@ -11,8 +11,11 @@ const Home_Blogs = () => {
   ];
 
   var blogTitle = ["Title1", "Title2", "Title3", "Title4", "Title5", "Title6"];
-  
-  var blogContent = ["This is blog content for blog number 1 and it is justified text", "This is blog content for blog number 2 and it is justified text"];
+
+  var blogContent = [
+    "This is blog content for blog number 1 and it is justified text",
+    "This is blog content for blog number 2 and it is justified text",
+  ];
 
   return (
     <div className="blogsContainer">

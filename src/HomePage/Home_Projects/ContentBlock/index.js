@@ -1,5 +1,5 @@
 import "./index.css";
-import LineBlock from "../../ReusableComponent/LineBlock";
+import LineBlock from "../../../ReusableComponent/LineBlock";
 
 const ContentBlock = (props) => {
   return (

@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 body {
@@ -37,8 +36,54 @@ body {
   }
 }
 
-.App {
+/* Styling navigation bar and its menu items */
+
+nav {
+  position: absolute;
+  width: 80vw;
   display: flex;
-  flex-direction: column;
-  gap: 10vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling anchor tag (a) for navigation bar */
+a {
+  font: 1.5vw "Hubballi", cursive;
+  text-decoration: none;
+  color: grey;
+}
+
+/* Hover effect on navbar menu */
+a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+/* Styling logo-text of navbar */
+.nav-logotext {
+  font: bold 1.7vw "Comforter Brush", cursive;
+  letter-spacing: 0.7vw;
+  color: black;
+}
+
+.nav-menuitem {
+  display: flex;
+  gap: 2vw;
+}
+
+.activeLink{
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+/* Styling Footer */
+footer {
+  margin-top: 7vw;
+  height: 3vw;
+  background-color: grey;
+  display: flex;
+
+  align-items: center; /* Vertically Center */
+  justify-content: center; /* Horizontally Center */
 }
