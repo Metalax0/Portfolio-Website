@@ -4,7 +4,7 @@
 }
 
 body {
-  padding: 3vw 9vw 0 9vw;
+  padding: 3vw 9vw 9vw 9vw;
   /* background-color: beige; */
   /* background-color: #E4DFDA; */
   background: url("../public/img_bg4.jpg");
@@ -46,15 +46,20 @@ nav {
   justify-content: space-between;
 }
 
-/* Styling anchor tag (a) for navigation bar */
+/* Universal anchor tag css */
 a {
-  font: 1.5vw "Hubballi", cursive;
   text-decoration: none;
+  color: black;
+}
+
+/* Styling anchor tag (a) for navigation bar */
+nav a {
+  font: 1.5vw "Hubballi", cursive;
   color: grey;
 }
 
 /* Hover effect on navbar menu */
-a:hover{
+nav a:hover {
   color: black;
   font-weight: bold;
 }
@@ -71,7 +76,7 @@ a:hover{
   gap: 2vw;
 }
 
-.activeLink{
+.activeLink {
   color: black;
   font-weight: bold;
   border-bottom: 2px solid black;
