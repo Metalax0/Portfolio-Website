@@ -1,0 +1,11 @@
+.lineBlockContainer
+{
+    display: flex;
+    justify-content: center;
+    height: 7vw;
+}
+
+.lineBlockLeft
+{
+    border-right: 0.3vw solid black;
+}

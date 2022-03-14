@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import HomePage from "./HomePage";
-import CVPage from "./CVPage";
-import ProjectPage from "./ProjectPage";
-import BlogPage from "./BlogPage";
-import ContactPage from "./ContactPage";
-import ErrorPage from "./ErrorPage";
+import HomePage from "./Pages/HomePage";
+import CVPage from "./Pages/CVPage";
+import ProjectPage from "./Pages/ProjectPage";
+import BlogPage from "./Pages/BlogPage";
+import ContactPage from "./Pages/ContactPage";
+import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
   var [navActive, setnavActive] = useState(["activeLink", "", "", "", ""]);
@@ -74,19 +74,28 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route path="/" element={<HomePage setnavActive={setnavActive} />} />
-        <Route path="/cv" element={<CVPage setnavActive={setnavActive} />} />
+        <Route
+          path="/"
+          element={<HomePage setnavActive={setnavActive} exact />}
+        />
+        <Route
+          path="/cv"
+          element={<CVPage setnavActive={setnavActive} exact />}
+        />
         <Route
           path="/project"
           element={<ProjectPage setnavActive={setnavActive} />}
+          exact
         />
         <Route
           path="/blog"
           element={<BlogPage setnavActive={setnavActive} />}
+          exact
         />
         <Route
           path="/contact"
           element={<ContactPage setnavActive={setnavActive} />}
+          exact
         />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
