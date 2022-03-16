@@ -90,19 +90,3 @@ li {
   height: 1.3vw;
 }
 
-.CVContainerLeft button {
-  width: 30vw;
-  height: 2.8vw;
-  margin-top: 2vw;
-  font: bold 1.5vw "Hubballi", cursive;
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 10px;
-}
-
-.CVContainerLeft button:hover {
-  cursor: pointer;
-  color: white;
-  border: 3px solid white;
-  background-color: black;
-}

@@ -1,5 +1,5 @@
 import "./style.css";
-import MainContent from "./MainContent";
+import About from "./About";
 import Projects from "./Projects";
 import Blogs from "./Blogs";
 import Contact from "./Contact";
@@ -8,7 +8,7 @@ import Skills from "./Skills";
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <MainContent />
+      <About />
       <Skills />
       <Projects />
       <Blogs />

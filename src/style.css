@@ -5,9 +5,7 @@
 
 body {
   padding: 3vw 9vw 9vw 9vw;
-  /* background-color: beige; */
-  /* background-color: #E4DFDA; */
-  background: url("../public/img_bg4.jpg");
+  background: url("../public/Images/Background.jpg");
 
   opacity: 100%;
   animation-name: pageAnimation;

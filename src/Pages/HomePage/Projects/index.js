@@ -11,13 +11,13 @@ const Home_Projects = () => {
     "test",
   ];
   var pic = [
-    <img className="imgProject" src="img_SpaceRush.png" />,
-    <img className="imgProject" src="img_CVPortfolio.png" />,
-    <img className="imgProject" src="img_CloverThree.png" />,
-    <img className="imgProject" src="img_CloverThreeReact.png" />,
+    <img className="imgProject" src="/Images/Home_SpaceRush.png" />,
+    <img className="imgProject" src="/Images/Home_CVPortfolio.png" />,
+    <img className="imgProject" src="/Images/Home_CloverThree.png" />,
+    <img className="imgProject" src="/Images/Home_CloverThreeReact.png" />,
   ];
   return (
-    <div className="Container">
+    <div className="projectContainer">
       <label className="blockTitle"> PROJECTS </label>
       <ContentBlock Left={pic[0]} year={year[0]} Right={content[0]} />
       <ContentBlock Left={content[1]} year={year[1]} Right={pic[1]} />

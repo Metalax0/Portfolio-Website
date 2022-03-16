@@ -35,7 +35,7 @@
   }
 }
 
-.mainContainer {
+.aboutContainer {
   padding-top: 7vw;
   display: flex;
   align-items: center;
@@ -43,12 +43,12 @@
   gap: 3vw;
 }
 
-.mainContainer_Title {
+.aboutContainer_Title {
   font: bold 2.5vw "Hubballi", cursive;
   color: black;
 }
 
-.mainContainer_subTitle {
+.aboutContainer_subTitle {
   font: 2.5vw "Hubballi", cursive;
   color: black;
 }
@@ -57,23 +57,6 @@
   padding-top: 2vw;
   width: 30vw;
   font: 1.7vw "Hubballi", cursive;
-  line-height: 1.2;
+  line-height: 2.3vw;
   text-align: justify;
-}
-
-.leftContainer button{
-  width: 12vw;
-  height: 2.8vw;
-  margin-top: 2vw;
-  font: bold 1.5vw "Hubballi", cursive;
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 10px;
-}
-
-.leftContainer button:hover{
-  cursor: pointer;
-  color: white;
-  border: 3px solid white;
-  background-color: black;
 }

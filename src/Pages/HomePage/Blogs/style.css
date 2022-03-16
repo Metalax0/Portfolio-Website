@@ -26,13 +26,13 @@
   height: 10vw;
 }
 
-.blogTitle
+.homeBlogTitle
 {
   text-align: center;
   font: bold 1.5vw "Hubballi", cursive;
 }
 
-.blogContent
+.homeBlogContent
 {
   text-align: justify;
   font: 1.3vw "Hubballi", cursive;

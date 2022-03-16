@@ -1,3 +1,4 @@
+import Button from "../../ReusableComponent/Button";
 import "./style.css";
 
 const CVPage = () => {
@@ -7,7 +8,7 @@ const CVPage = () => {
       <div className="CVContainerLeft">
         {/* Image Section of CV Page */}
         <div className="CVImage">
-          <img src="img_Portfolio3.jpg" />
+          <img src="/Images/CV_Portfolio3.jpg" />
           <label className="CVTitle">SAMPANNA POKHAREL</label>
           <label className="CVSubTitle">STUDENT</label>
         </div>
@@ -27,7 +28,7 @@ const CVPage = () => {
           <label className="CVTitle">CONTACT</label>
           <br />
           <li>
-            <img className="imgIcon" src="icon_address.png" />
+            <img className="imgIcon" src="/Icons/icon_address.png" />
             <a
               target="_blank"
               href="https://www.google.com/maps/place/Kathmandu+44600/data=!4m2!3m1!1s0x39eb198a307baabf:0xb5137c1bf18db1ea?sa=X&ved=2ahUKEwj1-rHukcH2AhW8UvUHHRVZDv8Q8gF6BAgREAE"
@@ -36,11 +37,11 @@ const CVPage = () => {
             </a>
           </li>
           <li>
-            <img className="imgIcon" src="icon_phone.png" />
+            <img className="imgIcon" src="/Icons/icon_phone.png" />
             +9779869277513
           </li>
           <li>
-            <img className="imgIcon" src="icon_email.png" />{" "}
+            <img className="imgIcon" src="/Icons/icon_email.png" />{" "}
             <a
               target="_blank"
               href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLrRTJqHlJJwWfKnHvTwHbrzFcHPpZxsZhZLCjMcrRFqNSNMfNpSZJcxdRHKqsnJXPRrhS"
@@ -50,19 +51,19 @@ const CVPage = () => {
           </li>
 
           <li>
-            <img className="imgIcon" src="icon_website.png" />
+            <img className="imgIcon" src="/Icons/icon_website.png" />
             <a target="_blank" href="https://sampannapokharel.com/">
               sampannapokharel.com
             </a>
           </li>
           <li>
-            <img className="imgIcon" src="icon_github.png" />
+            <img className="imgIcon" src="/Icons/icon_github.png" />
             <a target="_blank" href="https://github.com/Metalax0">
               github.com/Metalax0
             </a>
           </li>
           <li>
-            <img className="imgIcon" src="icon_facebook.png" />
+            <img className="imgIcon" src="/Icons/icon_facebook.png" />
             <a
               target="_blank"
               href="https://www.facebook.com/sampanna.pokharel.0/"
@@ -72,7 +73,11 @@ const CVPage = () => {
           </li>
         </ul>
         <a href="Sampanna_Pokharel_CV.pdf" download>
-          <button>Download CV</button>
+        <Button
+            buttonName="Download CV"
+            buttonWidth="30vw"
+            buttonHeight="2.8vw"
+          />
         </a>
       </div>
 
