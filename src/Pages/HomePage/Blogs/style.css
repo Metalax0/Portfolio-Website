@@ -4,36 +4,12 @@
   align-items: center;
 }
 
-.blockTitleBlog {
-  margin-bottom: 2vw;
-  font: bold 3vw "Hubballi", cursive;
-}
-
 .gridContainer {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.gridItem {
-  display: flex;
-  flex-direction: column;
-  gap: 1vw;
-  padding: 3vw 3.8vw;
-}
-
-.imgBlogs{
-  width: 20vw;
-  height: 10vw;
-}
-
-.homeBlogTitle
-{
-  text-align: center;
-  font: bold 1.5vw "Hubballi", cursive;
-}
-
-.homeBlogContent
-{
-  text-align: justify;
-  font: 1.3vw "Hubballi", cursive;
+.blockTitleBlog {
+  margin-bottom: 2vw;
+  font: bold 3vw "Hubballi", cursive;
 }
