@@ -1,16 +1,17 @@
 import blogData from "../../blogData.json";
-import BlogTemplate from "./BlogTemplate";
+import HalfTemplate from "./HalfTemplate";
 import "./style.css";
 
 const BlogPage = () => {
   return (
     <div className="BlogPage">
       {blogData.map((item) => (
-        <BlogTemplate
+        <HalfTemplate
           blogTitle={item.title}
           blogAuthor={item.author}
           blogBody={item.body}
           blogImage={item.image}
+          blogID={item.id}
           key={item.id}
         />
       ))}

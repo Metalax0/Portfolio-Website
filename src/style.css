@@ -34,6 +34,12 @@ body {
   }
 }
 
+/* Universal anchor tag css */
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Styling navigation bar and its menu items */
 
 nav {
@@ -42,12 +48,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-/* Universal anchor tag css */
-a {
-  text-decoration: none;
-  color: black;
 }
 
 /* Styling anchor tag (a) for navigation bar */
@@ -78,15 +78,4 @@ nav a:hover {
   color: black;
   font-weight: bold;
   border-bottom: 2px solid black;
-}
-
-/* Styling Footer */
-footer {
-  margin-top: 7vw;
-  height: 3vw;
-  background-color: grey;
-  display: flex;
-
-  align-items: center; /* Vertically Center */
-  justify-content: center; /* Horizontally Center */
 }

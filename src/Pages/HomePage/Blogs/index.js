@@ -12,6 +12,7 @@ const Home_Blogs = () => {
             blogTitle={item.title}
             blogContent={item.previewContent}
             blogImage={item.image}
+            blogID={item.id}
             key={item.id}
           />
         ))}

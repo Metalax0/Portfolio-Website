@@ -4,6 +4,7 @@
   border-right: 1vw solid;
   border-left: 1vw solid;
   border-radius: 2vw 2vw 2vw 2vw;
+  box-shadow: 1vw 1vw 1.5vw #888888;
 
   animation-name: borderColorChange;
   animation-duration: 15s;
@@ -59,4 +60,11 @@
   font: 1.7vw "Hubballi", cursive;
   line-height: 2.3vw;
   text-align: justify;
+}
+
+.rightContainer {
+  /* border: 0.2vw solid grey;
+  border-radius: 1vw;
+  box-shadow: 0.3vw 0.8vw 1vw #888888;
+  background-color: rgb(255, 255, 255, 0.2); */
 }

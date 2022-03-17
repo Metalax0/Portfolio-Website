@@ -12,6 +12,7 @@
   gap: 4vw;
   background-color: #dcb484;
   border: 0.3vw solid #333232;
+  box-shadow: 1.3vw 1vw 1vw #888888;
 }
 
 .CVContainerRight {
@@ -23,6 +24,7 @@
   gap: 4vw;
   background-color: #abc3a3;
   border: 0.3vw solid #333232;
+  box-shadow: 1vw 1vw 1vw #888888;
 }
 
 .CVTitle {

@@ -6,6 +6,7 @@ import ProjectPage from "./Pages/ProjectPage";
 import BlogPage from "./Pages/BlogPage";
 import ContactPage from "./Pages/ContactPage";
 import ErrorPage from "./Pages/ErrorPage";
+import BlogTemplate from "./Pages/BlogPage/Template";
 
 function App() {
   var [navActive, setnavActive] = useState(["activeLink", "", "", "", ""]);
@@ -73,30 +74,14 @@ function App() {
           </Link>
         </div>
       </nav>
+
       <Routes>
-        <Route
-          path="/"
-          element={<HomePage setnavActive={setnavActive} exact />}
-        />
-        <Route
-          path="/cv"
-          element={<CVPage setnavActive={setnavActive} exact />}
-        />
-        <Route
-          path="/project"
-          element={<ProjectPage setnavActive={setnavActive} />}
-          exact
-        />
-        <Route
-          path="/blog"
-          element={<BlogPage setnavActive={setnavActive} />}
-          exact
-        />
-        <Route
-          path="/contact"
-          element={<ContactPage setnavActive={setnavActive} />}
-          exact
-        />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/cv" element={<CVPage />} />
+        <Route path="/project" element={<ProjectPage />} exact />
+        <Route path="/blog" element={<BlogPage />} exact />
+        <Route path="/contact" element={<ContactPage />} exact />
+        <Route path="/blog/:title" element={<BlogTemplate />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       {/* <footer>*This is a placeholder for footer*</footer> */}

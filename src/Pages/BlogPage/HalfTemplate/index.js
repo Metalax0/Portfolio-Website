@@ -1,9 +1,9 @@
 import Button from "../../../ReusableComponent/Button";
-import "./style.css";
+import "../style.css";
 
-const BlogTemplate = (props) => {
+const BlogHalfTemplate = (props) => {
   return (
-    <div className="blogList">
+    <div className="HalfTemplate">
       <div className="TitleandSubTitle">
         <label className="blogTitle">{props.blogTitle}</label>
         <br />
@@ -12,9 +12,14 @@ const BlogTemplate = (props) => {
       </div>
       <img src={props.blogImage} />
       <p>{props.blogBody}</p>
-      <Button buttonName="READ MORE" buttonWidth="20vw" buttonHeight="3vw" />
+      <Button
+        blogID={props.blogID}
+        buttonName="READ MORE"
+        buttonWidth="20vw"
+        buttonHeight="3vw"
+      />
     </div>
   );
 };
 
-export default BlogTemplate;
+export default BlogHalfTemplate;

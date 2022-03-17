@@ -1,7 +1,64 @@
 .ContactPage {
-    padding-top: 9vw;
-    display: flex;
-    flex-direction: column;
-    gap: 20vw;
-    justify-content: center;
-  }
+  padding-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.getInTouch,
+.leaveAMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0.5vw;
+}
+
+.contactGridItem {
+  padding: 2vw 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+
+  cursor: pointer;
+  border: 0.2vw solid grey;
+  border-radius: 1vw;
+  box-shadow: 0.3vw 0.8vw 1vw #888888;
+  background-color: rgb(255, 255, 255, 0.2);
+  transition: transform 0.5s, border-radius 0.5s, background-color 1s;
+}
+
+.contactGridItem:hover {
+  border-radius: 3vw;
+  transform: scale(0.9);
+  background-color: rgb(0,250,154, 0.5);
+}
+
+.contactGridItem img {
+  width: 3vw;
+  height: 3vw;
+  padding: 0.5vw;
+  background-color: white;
+  border: 0.4vw solid black;
+  border-radius: 1.5vw;
+}
+
+.contactTitle {
+  text-align: center;
+  font: bold 3vw "Hubballi", cursive;
+}
+
+.contactSubTitle {
+  font: 1.7vw "Hubballi", cursive;
+}
+
+.contactDescription {
+  font: 1.5vw "Hubballi", cursive;
+}
