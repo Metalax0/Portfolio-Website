@@ -24,41 +24,61 @@
   border-radius: 0.5vw;
 }
 
-.skillsInner{
+.skillsInner {
   margin: -1px; /* So that there is no gap between inner and outer div*/
-  padding-left: 0.5vw;
-  color: white;
+  padding: 0.2vw 0.5vw;
+  color: black;
   background-color: #303030;
-  border: 0.2vw solid #303030;
+  outline: 0.2vw solid #303030;
+
+  animation-name: skillBackgroundChange;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-.skillsIndicator{
-    display: flex;
-    gap: 7vw;
+
+@keyframes skillBackgroundChange {
+  0% {
+    border-color: rgb(224, 224, 82);
+    background-color: rgb(224, 224, 82);
+  }
+  33% {
+    border-color: lightgreen;
+    background-color: lightgreen;
+  }
+  66% {
+    border-color: lightskyblue;
+    background-color: lightskyblue;
+  }
+  100% {
+    border-color: pink;
+    background-color: pink;
+  }
+}
+
+.skillsIndicator {
+  display: flex;
+  gap: 7vw;
 }
 
 /* Skills block, progress bar meters */
-#skill1
-{
-    width: 75%;
+#skill1 {
+  width: 75%;
 }
 
-#skill2
-{
-    width: 30%;
+#skill2 {
+  width: 30%;
 }
 
-#skill3
-{
-    width: 70%;
+#skill3 {
+  width: 70%;
 }
 
-#skill4
-{
-    width: 55%;
+#skill4 {
+  width: 55%;
 }
 
-#skill5
-{
-    width: 70%;
+#skill5 {
+  width: 70%;
 }
-

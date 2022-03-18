@@ -1,7 +1,9 @@
 import Button from "../../../ReusableComponent/Button";
+import { useNavigate } from "react-router-dom";
 import "../style.css";
 
 const BlogHalfTemplate = (props) => {
+  let navigate = useNavigate();
   return (
     <div className="HalfTemplate">
       <div className="TitleandSubTitle">
@@ -17,6 +19,10 @@ const BlogHalfTemplate = (props) => {
         buttonName="READ MORE"
         buttonWidth="20vw"
         buttonHeight="3vw"
+        onClick={() => {
+          navigate(`/blog/${props.blogID}`);
+          window.scrollTo(0, 0);
+        }}
       />
     </div>
   );

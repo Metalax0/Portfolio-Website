@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import HomePage from "./Pages/HomePage";
 import CVPage from "./Pages/CVPage";
@@ -9,69 +9,53 @@ import ErrorPage from "./Pages/ErrorPage";
 import BlogTemplate from "./Pages/BlogPage/Template";
 
 function App() {
-  var [navActive, setnavActive] = useState(["activeLink", "", "", "", ""]);
-
-  function handleOnClick(arrIndex) {
-    if (arrIndex == 0) setnavActive(["activeLink", "", "", "", ""]);
-    else if (arrIndex == 1) setnavActive(["", "activeLink", "", "", ""]);
-    else if (arrIndex == 2) setnavActive(["", "", "activeLink", "", ""]);
-    else if (arrIndex == 3) setnavActive(["", "", "", "activeLink", ""]);
-    else if (arrIndex == 4) setnavActive(["", "", "", "", "activeLink"]);
-  }
-
-  useEffect(() => {
-    let currentURL = window.location.pathname;
-    if (currentURL == "/cv") {
-      setnavActive(["", "activeLink", "", "", ""]);
-    } else if (currentURL == "/project") {
-      setnavActive(["", "", "activeLink", "", ""]);
-    } else if (currentURL == "/blog") {
-      setnavActive(["", "", "", "activeLink", ""]);
-    } else if (currentURL == "/contact") {
-      setnavActive(["", "", "", "", "activeLink"]);
-    }
-  }, []);
+  let activeClassName = "activeLink";
 
   return (
     <BrowserRouter>
       <nav>
         <div className="nav-logotext">SAMPANNA</div>
         <div className="nav-menuitem">
-          <Link
-            className={navActive[0]}
-            onClick={() => handleOnClick(0)}
+          <NavLink
             to="/"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
           >
             Home
-          </Link>
-          <Link
-            className={navActive[1]}
-            onClick={() => handleOnClick(1)}
+          </NavLink>
+          <NavLink
             to="/cv"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
           >
             CV
-          </Link>
-          <Link
-            className={navActive[2]}
-            onClick={() => handleOnClick(2)}
+          </NavLink>
+          <NavLink
             to="/project"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
           >
             PROJECT
-          </Link>
-          <Link
-            className={navActive[3]}
-            onClick={() => handleOnClick(3)}
+          </NavLink>
+          <NavLink
             to="/blog"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
           >
             BLOG
-          </Link>
-          <Link
-            className={navActive[4]}
-            onClick={() => handleOnClick(4)}
+          </NavLink>
+          <NavLink
             to="/contact"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
           >
             CONTACT
-          </Link>
+          </NavLink>
         </div>
       </nav>
 

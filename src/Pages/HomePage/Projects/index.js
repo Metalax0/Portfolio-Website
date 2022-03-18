@@ -19,10 +19,12 @@ const Home_Projects = () => {
   return (
     <div className="projectContainer">
       <label className="blockTitle"> PROJECTS </label>
-      <ContentBlock Left={pic[0]} year={year[0]} Right={content[0]} />
-      <ContentBlock Left={content[1]} year={year[1]} Right={pic[1]} />
-      <ContentBlock Left={pic[2]} year={year[2]} Right={content[2]} />
-      <ContentBlock Left={content[3]} year={year[3]} Right={pic[3]} />
+      <div className="projectList">
+        <ContentBlock Left={pic[3]} year={year[3]} Right={content[3]} />
+        <ContentBlock Left={content[2]} year={year[2]} Right={pic[2]} />
+        <ContentBlock Left={pic[1]} year={year[1]} Right={content[1]} />
+        <ContentBlock Left={content[0]} year={year[0]} Right={pic[0]} />
+      </div>
     </div>
   );
 };

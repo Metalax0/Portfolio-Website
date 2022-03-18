@@ -73,7 +73,7 @@ const CVPage = () => {
           </li>
         </ul>
         <a href="Sampanna_Pokharel_CV.pdf" download>
-        <Button
+          <Button
             buttonName="Download CV"
             buttonWidth="30vw"
             buttonHeight="2.8vw"
@@ -104,7 +104,7 @@ const CVPage = () => {
             <br />
             <b>Clover.Three :</b> Clover.Three is a front end web project
             primarily developed in JavaScript (two version available - react and
-            vanila js). It was a group project consisting of three members.
+            vanila js). I made to-do-list and puzzle game for my part.
             <br />
             <br />
             <b>CV/Portfolio :</b> CV/Portfolio website is a portfolio website

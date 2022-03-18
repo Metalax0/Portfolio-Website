@@ -1,9 +1,25 @@
 .contentContainer {
+  width: 70vw;
+  padding: 0 3vw;
   display: flex;
   align-items: center;
-  width: 75vw;
   justify-content: space-evenly;
   gap: 3vw;
+
+  background-color: rgb(204, 85, 0, 0.1);
+  transition: transform 0.7s, color 1s, background-color 1s;
+}
+
+.contentContainer:hover,
+.contentContainer:hover .yearDiv,
+.contentContainer:hover .imgProject,
+.contentContainer:hover .imgProject,
+.contentContainer:hover .lineBlockLeft,
+.contentContainer:hover .lineBlockLeft {
+  border-color: white;
+  color: white;
+  transform: scale(0.9);
+  background-color: #303030;
 }
 
 .yearDiv {
@@ -13,6 +29,7 @@
   border-radius: 2.5vw;
   font: bold 1.3vw "Hubballi", cursive;
   color: white;
+  transition: transform 0.7s, border-color 0.5s, background-color 0.5s;
 }
 
 /* IDK what it does but it worked. So I'm not touching this code */
@@ -25,6 +42,7 @@
 }
 
 .imgProject {
-  width: 30vw;
-  outline: 5px solid orange;
+  width: 25.5vw;
+  border: 0.5vw solid #303030;
+  transition: transform 0.7s, border-color 0.5s, background-color 0.5s;
 }
