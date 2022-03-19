@@ -7,11 +7,12 @@ const Home_MainContent = () => {
       <div className="leftContainer">
         <label className="aboutContainer_Title">HELLO, I'M SAMPANNA,</label>{" "}
         <br />
-        <label className="aboutContainer_subTitle"> I'M A CS STUDENT</label>
+        <label className="aboutContainer_subTitle">A CS STUDENT</label>
         <p className="aboutMe">
           I'm 21 years old and from Kathmandu, Nepal. I am currently doing my
-          Bachelors in Computing from Islington College. I am interested in
-          front end web development and programming.
+          Bachelors in Computing from Islington College. I am a front-end and
+          programming enthusiast who is currently walking towards the path of
+          becomming a front end web developer.
         </p>
         <br />
         <br />

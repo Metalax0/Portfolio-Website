@@ -1,12 +1,10 @@
-.lineBlockContainer
-{
-    display: flex;
-    justify-content: center;
-    height: 7vw;
+.lineBlockContainer {
+  display: flex;
+  justify-content: center;
+  height: 7vw;
 }
 
-.lineBlockLeft
-{
-    border-right: 0.3vw solid black;
-    transition: transform 0.7s, border-color 0.5s, background-color 0.5s;
+.lineBlockLeft {
+  border-right: 0.3vw solid white;
+  transition: transform 0.7s, border-color 0.5s, background-color 1s;
 }

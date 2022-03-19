@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 15vw;
   justify-content: center;
+  color: white;
 }
 
 .ProjectGrid {

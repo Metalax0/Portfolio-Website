@@ -5,7 +5,7 @@
 
 body {
   padding: 3vw 9vw 9vw 9vw;
-  background: url("../public/Images/Background.jpg");
+  background: url("../public/Images/BackgroundImage.png");
 
   opacity: 100%;
   animation-name: pageAnimation;
@@ -37,7 +37,7 @@ body {
 /* Universal anchor tag css */
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* Styling navigation bar and its menu items */
@@ -48,17 +48,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 
 /* Styling anchor tag (a) for navigation bar */
 nav a {
   font: 1.5vw "Hubballi", cursive;
-  color: grey;
 }
 
 /* Hover effect on navbar menu */
 nav a:hover {
-  color: black;
   font-weight: bold;
 }
 
@@ -66,7 +65,6 @@ nav a:hover {
 .nav-logotext {
   font: bold 1.7vw "Comforter Brush", cursive;
   letter-spacing: 0.7vw;
-  color: black;
 }
 
 .nav-menuitem {
@@ -74,8 +72,8 @@ nav a:hover {
   gap: 2vw;
 }
 
+/* Sets style to when navbar link is active */
 .activeLink {
-  color: black;
   font-weight: bold;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }

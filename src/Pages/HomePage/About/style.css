@@ -1,3 +1,12 @@
+.aboutContainer {
+  padding-top: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  color: white;
+}
+
 .imgPotrait {
   width: 25vw;
   height: 34vw;
@@ -36,22 +45,12 @@
   }
 }
 
-.aboutContainer {
-  padding-top: 7vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3vw;
-}
-
 .aboutContainer_Title {
   font: bold 2.5vw "Hubballi", cursive;
-  color: black;
 }
 
 .aboutContainer_subTitle {
   font: 2.5vw "Hubballi", cursive;
-  color: black;
 }
 
 .aboutMe {

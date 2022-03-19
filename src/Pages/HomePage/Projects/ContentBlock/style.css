@@ -1,48 +1,90 @@
 .contentContainer {
-  width: 70vw;
+  /* yo bhittra 3ta div cha */
   padding: 0 3vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 3vw;
+  transition: transform 0.7s, color 1s;
+}
 
-  background-color: rgb(204, 85, 0, 0.1);
-  transition: transform 0.7s, color 1s, background-color 1s;
+.contentContainer img {
+  width: 23vw;
+  opacity: 0;
+  border: 3px solid white;
+  transition: transform 0.8s, border 1s, opacity 0.5s, border 0.5s;
+}
+
+.contentContainer:hover img {
+  opacity: 100;
+  transform: scale(1.2);
+  border: 3px solid white;
 }
 
 .contentContainer:hover,
 .contentContainer:hover .yearDiv,
-.contentContainer:hover .imgProject,
-.contentContainer:hover .imgProject,
+.contentContainer:hover .img,
 .contentContainer:hover .lineBlockLeft,
 .contentContainer:hover .lineBlockLeft {
   border-color: white;
-  color: white;
-  transform: scale(0.9);
+  transform: scale(1.05);
   background-color: #303030;
+}
+
+.contentContainer:hover .lineBlockLeft {
+  transform: scale(0.95); /* So that it does not outscale its container*/
 }
 
 .yearDiv {
-  padding: 2.5vw;
+  padding: 1.5vw 2vw;
   background-color: #303030;
-  border: 0.25vw solid black;
-  border-radius: 2.5vw;
-  font: bold 1.3vw "Hubballi", cursive;
+  border: 0.25vw solid white;
+  border-radius: 1.5vw;
   color: white;
-  transition: transform 0.7s, border-color 0.5s, background-color 0.5s;
+  font: bold 1.3vw "Hubballi", cursive;
+  text-align: center;
+  transition: transform 0.7s, border-color 0.5s;
 }
 
 /* IDK what it does but it worked. So I'm not touching this code */
-.textLeft,
-.textRight {
+.contentLeft,
+.contentRight {
+  display: flex;
+  padding: 2vw;
   flex: 1 1 0;
-  font: 1.5vw "Hubballi", cursive;
+  font: 1.3vw "Hubballi", cursive;
   line-height: 2vw;
   text-align: justify;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid white;
+  box-shadow: 0.5vw 0.5vw 1vw #888888;
+  background-color: #303030;
 }
 
-.imgProject {
-  width: 25.5vw;
-  border: 0.5vw solid #303030;
-  transition: transform 0.7s, border-color 0.5s, background-color 0.5s;
+.hrLineLeft,
+.hrLineRight {
+  background-color: white;
+  width: 5vw;
+  height: 0.2vw;
+}
+
+/* overwrites property of default hr and hides it */
+.hrDisable {
+  border: none;
+  background-color: transparent;
+  width: 5vw;
+  height: 0.2vw;
+}
+
+.rightContainerProjects,
+.leftContainerProjects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContainerProjects {
+  justify-content: right;
 }

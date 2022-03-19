@@ -1,13 +1,14 @@
 .button {
   font: bold 1.5vw "Hubballi", cursive;
-  background-color: white;
-  border: 3px solid black;
+  color: white;
+  border: 3px solid white;
+  background-color: black;
   border-radius: 10px;
 }
 
 .button:hover {
   cursor: pointer;
-  color: white;
-  border: 3px solid white;
-  background-color: black;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
 }

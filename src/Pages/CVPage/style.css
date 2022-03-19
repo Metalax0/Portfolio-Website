@@ -88,6 +88,10 @@ li {
   list-style-type: none;
 }
 
+.CVContact a{
+  color: black;
+}
+
 .imgIcon {
   height: 1.3vw;
 }
