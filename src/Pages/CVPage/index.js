@@ -102,18 +102,18 @@ const CVPage = () => {
           <label className="CVTitle">PROJECTS</label>
           <p className="CVDescription">
             <br />
-            <b>Clover.Three :</b> Clover.Three is a front end web project
-            primarily developed in JavaScript (two version available - react and
-            vanila js). I made to-do-list and puzzle game for my part.
+            <b>Portfolio Website - </b> A portfolio website built using HTML,
+            CSS, JS. and React. It consists of Home, CV, Project, Blog and
+            Contact pages.
             <br />
             <br />
-            <b>CV/Portfolio :</b> CV/Portfolio website is a portfolio website
-            build using HTML, CSS and Javascript. It was developed as a part of
-            college assignment.
+            <b>Clover.Three - </b> A group project built using HTML, CSS, JS and
+            React. Here, I built a to-do-list and cryptography themed puzzzle
+            game.
             <br />
             <br />
-            <b>Space Rush :</b> Space Rush is a browser game primarily developed
-            in vanilla javascript.
+            <b>Space Rush - </b> A browser game inspired from classic spaceship
+            game. It was built using HTML, CSS and JS.
           </p>
         </div>
         {/* Hard Skills Section of CV Page */}
@@ -140,14 +140,13 @@ const CVPage = () => {
           <ul className="CVSoftSkillsList">
             <li>
               <b>Leadership -</b> Student Academic Representative in college,
-              Supervised group project in friend group, Took leadership 1.0
-              class at Nobel Internship (current)
+              Took leadership 1.0 course at Nobel Internship.
             </li>
             <br />
             <li>
               <b>Communication, Teamwork -</b> Worked in a team to build web
               projects, worked with an internation team during internship at
-              Nobel (current)
+              Nobel.
             </li>
           </ul>
         </div>

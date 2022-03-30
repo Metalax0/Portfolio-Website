@@ -1,5 +1,5 @@
 import "./style.css";
-import blogData from "../../../blogData.json";
+import blogData from "../../../JsonData/blogData.json";
 import BlogTemplateHome from "./BlogTemplateHome";
 
 const Home_Blogs = () => {

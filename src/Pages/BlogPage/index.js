@@ -1,4 +1,4 @@
-import blogData from "../../blogData.json";
+import blogData from "../../JsonData/blogData.json";
 import HalfTemplate from "./HalfTemplate";
 import "./style.css";
 

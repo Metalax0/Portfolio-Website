@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import blogData from "../../../blogData.json";
+import blogData from "../../../JsonData/blogData.json";
 import ErrorPage from "../../ErrorPage";
 import "../style.css";
 

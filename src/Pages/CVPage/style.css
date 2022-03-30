@@ -21,7 +21,7 @@
   padding: 2vw;
   display: flex;
   flex-direction: column;
-  gap: 4vw;
+  gap: 4.5vw;
   background-color: #abc3a3;
   border: 0.3vw solid #333232;
   box-shadow: 1vw 1vw 1vw #888888;
@@ -88,11 +88,10 @@ li {
   list-style-type: none;
 }
 
-.CVContact a{
+.CVContact a {
   color: black;
 }
 
 .imgIcon {
   height: 1.3vw;
 }
-

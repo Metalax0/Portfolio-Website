@@ -1,0 +1,63 @@
+.ProjectGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5vw;
+
+  transform: scale(0.9);
+  padding: 3vw;
+  border: 0.2vw solid grey;
+  border-radius: 1vw;
+  box-shadow: 0.8vw 0.8vw 1vw #888888;
+  background-color: rgb(0, 0, 0, 0.3);
+  transition: transform 0.5s, background-color 1s;
+}
+
+.ProjectGrid:hover {
+  transform: scale(1);
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.gridBackgroundIMG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 25vw;
+}
+
+.gridBackgroundIMG {
+  background-image: url("../../../../public/Images/Project_bg.png");
+}
+
+.gridTextBlock {
+  width: 35vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.gridTextBlock p {
+  font: 1.5vw "Hubballi", cursive;
+  line-height: 2vw;
+  text-align: justify;
+}
+
+.gridImage {
+  width: 35vw;
+  height: 25vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ProjectTitle {
+  font: Bold 5vw "Hubballi", cursive;
+  color: black;
+}
+
+.ProjectSubTitle {
+  font: Bold 2.5vw "Hubballi", cursive;
+}
